@@ -35,15 +35,48 @@ for training because as we increase the hidden layers, the trianing time wil dra
 
 ## Workflow
 
-1. Importing the required libraries.  
-3. Training a simple autoencoder without any hidden layer and 2D bottleneck feature.
-4. Generating a scatter plot of bottleneck features.
-5. Training a new Model with 1024 neurons in 1 hidden layer with 2D bottleneck feature.
-6. Generating the scatter plot and comapre both scatter plots.
-7. Generated new random images from bottleneck features from new Model.
-8. Printing first 64 Origional images and reconstructed images to compare how model is working.
-9. Interpolation between 2 random images is generated for the Model.
-10. Training a new Model with same architecture as above but with 10D bottleneck features.
-11. Generating Interpolated images of same images as above and compare both interpolation difference.
-12. Reconstructed first 64 images again with this model to compare with earlier version. 
+**1. Importing the required libraries.** 
+<br>
+  ![Import](snapshots/import.png)
+<br>
+**2. Training a simple autoencoder without any hidden layer and 2D bottleneck feature.**
+<br>
+
+<br>
+**3. Generating a scatter plot of bottleneck features.**
+<br>
+
+<br>
+**4. Training a new Model with 1024 neurons in 1 hidden layer with 2D bottleneck feature.**
+<br>
+
+<br>
+**5. Generating the scatter plot and comapre both scatter plots.**
+<br>
+
+<br>
+**6. Generated new random images from bottleneck features from new Model.**
+<br>
+
+<br>
+**7. Printing first 64 Origional images and reconstructed images to compare how model is working.**
+<br>
+
+<br>
+**8. Interpolation between 2 random images is generated for the Model.**
+<br>
+
+<br>
+**9. Training a new Model with same architecture as above but with 10D bottleneck features.**
+<br>
+
+<br>
+**10. Generating Interpolated images of same images as above and compare both interpolation difference.**
+<br>
+
+<br>
+**11. Reconstructed first 64 images again with this model to compare with earlier version.**
+<br>
+
+<br>
 
