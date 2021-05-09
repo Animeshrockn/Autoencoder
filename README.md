@@ -36,47 +36,42 @@ for training because as we increase the hidden layers, the trianing time wil dra
 ## Workflow
 
 **1. Importing the required libraries.** 
-<br>
-  ![Import](snapshots/import.png)
-<br>
-**2. Training a simple autoencoder without any hidden layer and 2D bottleneck feature.**
-<br>
 
-<br>
+<br><img src="snapshots/import.png" width="800" height="300" /><br>
+
+**2. Training a simple autoencoder without any hidden layer and 2D bottleneck feature.**<br>
+
 **3. Generating a scatter plot of bottleneck features.**
-<br>
 
-<br>
-**4. Training a new Model with 1024 neurons in 1 hidden layer with 2D bottleneck feature.**
-<br>
+<br><img src="snapshots/scatter_plot_simple.png" width="400" height="300" /><br>
 
-<br>
+**4. Training a new Model with 1024 neurons in 1 hidden layer with 2D bottleneck feature.**<br>
+
 **5. Generating the scatter plot and comapre both scatter plots.**
-<br>
 
-<br>
+<br><img src="snapshots/scatter_plot_simple.png" width="400" height="300" /><br>
+
 **6. Generated new random images from bottleneck features from new Model.**
-<br>
 
-<br>
+<br><img src="snapshots/random_images.png" width="400" height="100" /><br>
+
 **7. Printing first 64 Origional images and reconstructed images to compare how model is working.**
-<br>
 
-<br>
+<br><img src="snapshots/origional_image.png" width="400" height="300" /><br>
+<br><img src="snapshots/reconstructed_image1.png" width="400" height="300" /><br>
+
 **8. Interpolation between 2 random images is generated for the Model.**
-<br>
 
-<br>
-**9. Training a new Model with same architecture as above but with 10D bottleneck features.**
-<br>
+<br><img src="snapshots/interpolation1.png" width="400" height="100" /><br>
 
-<br>
+**9. Training a new Model with same architecture as above but with 10D bottleneck features.**<br>
+
 **10. Generating Interpolated images of same images as above and compare both interpolation difference.**
-<br>
 
-<br>
+<br><img src="snapshots/Interpolation2.png" width="400" height="100" /><br>
+
 **11. Reconstructed first 64 images again with this model to compare with earlier version.**
-<br>
 
-<br>
+<br><img src="snapshots/reconstructed_image2.png" width="400" height="300" /><br>
 
+*Note: Main code file is **AE.ipynb**, All the information related how code works is included in between code lines in Jupyter Notebook.*
